@@ -36,6 +36,7 @@ public class HomePage {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10000));
 		ho.cookie().click();
 		log.info(driver.getTitle());
+		int i;
 		
 			
 	}
